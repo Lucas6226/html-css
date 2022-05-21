@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+#titulo-principal {
+    color: green;
+}
+.titulos {
+    color: greenyellow;
+}
+.textos {
+    color: yellow;
+}
+#secretos > p {
+    display: none;
+}
+
+#secretos:hover > p {
+    display: block;
+    color: brown;
+    background-color: white;
+    width: 300px;
+}
+.link::before {
+    content: '> ';
+}
+
+.link::after {
+    content: ' <';
+}
