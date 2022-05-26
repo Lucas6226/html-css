@@ -3,4 +3,4 @@
 
 estou aprendendo a cirar sites e a gerenciar eles no meu repositorio no github
 
-<a href="https://lucas6226.github.io/html-css/exercicios/ex021/caixa01.html"> executar o exercicios 001
+<a href="https://lucas6226.github.io/html-css/exercicios/ex021/caixa01.html"> executar o exercicio 001 </a>
