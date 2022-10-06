@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela sobre filmes</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>
+            Filmes favoritos
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">grupo</th>
+                <th scope="col">nomes</th>
+                <th scope="colgroup" colspan="3">filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="3">mulheres</th>
+                <td>ana maria santos</td>
+                <td>alien</td>
+                <td>rambo</td>
+                <td>vingadores</td>
+            </tr>
+            <tr>
+                <td>beatriz souza</td>
+                <td>hulk</td>
+                <td>inception</td>
+                <td>batman</td>
+            </tr>
+            <tr>
+                <td>claudia melo</td>
+                <td>oblivion</td>
+                <td>matrix</td>
+                <td>big hero</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="3">homens</th>
+                <td>bruni mendonça</td>
+                <td>intocaveis</td>
+                <td>amnesia</td>
+                <td>gladiador</td>
+            </tr>
+                <td>daniel lourenço</td>
+                <td>wall-e</td>
+                <td>oldboy</td>
+                <td>dangal</td>
+            <tr>
+                <td>fabiano mota</td>
+                <td>star wars 5</td>
+                <td>taxi drives</td>
+                <td>toy story</td>
+            </tr>
+            <tfoot>
+                <th scope="row" colspan="4">total</th>
+                <td>1000</td>
+            </tfoot>
+        </tbody>
+    </table>
+</body>
+</html>
