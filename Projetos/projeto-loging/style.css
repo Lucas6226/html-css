@@ -16,6 +16,7 @@
         background-color: white;
         border-radius: 20px;
         margin: auto;
+        margin-top: 60px;
     }
     
     main {
@@ -26,16 +27,39 @@
     img {
         border-radius: 20px 20px 0px 0px;
         width: 300px;
-        /* height: 300px; */
     }
 
     h1, main > p {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
+    }
+
+    form * {
+        margin-bottom: 5px;
+    }
+
+    .respostas {
+        background-color: purple;
+        border-radius: 5px;
+        width: 280px;
+    }
+
+    #senha, #email {
+        height: 30px;
+        width: 220px;
+        border-radius: 10px;
+        border: 0px solid black;
     }
 
     .botao {
         width: 270px;
-        height: 60px;
-        border-radius: 10px;
+        height: 50px;
+        border-radius: 5px;
+        border: 2px solid rgba(116, 116, 116, 0.395);
+        margin: 5px 0px;
+    }
+
+    .material-symbols-outlined {
+        color: white;
+        font-size: 1.5em;
     }
 }

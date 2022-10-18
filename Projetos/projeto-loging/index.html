@@ -5,16 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de loging</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="imagens/pexels-igor-visuals-3681805.jpg" alt="foto de aalguns predios">
+    <img src="imagens/predios.png" alt="foto de aalguns predios">
     <main>
         <h1>Loging</h1>
         <p>seja bem vindo(a) novamente. faça loging para acessar sua conta e poder fazer as configurações no seu ambiente</p>
         <form action="fds.fds" autocomplete="on">
-            <p><label for="email"></label><input type="email" name="email" id="email"></p> <br>
-            <p><label for="senha"></label><input type="password" name="senha" id="senha"></p> <br>
+
+            <p class="respostas"><label for="email"><span class="material-symbols-outlined">mail</span></label><input type="email" name="email" id="email"></p>
+            <p class="respostas"><label for="senha"><span class="material-symbols-outlined">key</span></label><input type="password" name="senha" id="senha"></p>
+
             <p><input type="submit" value="Entrar" class="botao"><br><input type="button" value="Esqueci minha senha" class="botao"></p> <br>
         </form>
     </main>
