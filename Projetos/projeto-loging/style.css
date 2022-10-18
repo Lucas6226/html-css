@@ -1,5 +1,41 @@
 @charset "UTF-8";
 
 @media screen {
+    * {
+        padding: 0px;
+        margin: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    html {
+        background-color: rgb(91, 25, 141);
+    }
+
+    body {
+        width: 300px;
+        background-color: white;
+        border-radius: 20px;
+        margin: auto;
+    }
     
+    main {
+        text-align: center;
+        padding: 10px;
+    }
+
+    img {
+        border-radius: 20px 20px 0px 0px;
+        width: 300px;
+        /* height: 300px; */
+    }
+
+    h1, main > p {
+        margin-bottom: 20px;
+    }
+
+    .botao {
+        width: 270px;
+        height: 60px;
+        border-radius: 10px;
+    }
 }
