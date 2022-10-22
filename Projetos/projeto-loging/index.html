@@ -9,16 +9,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="imagens/predios.png" alt="foto de aalguns predios">
+    <div id="img1"></div>
     <main>
         <h1>Loging</h1>
         <p>seja bem vindo(a) novamente. faça loging para acessar sua conta e poder fazer as configurações no seu ambiente</p>
         <form action="fds.fds" autocomplete="on">
 
-            <p class="respostas"><label for="email"><span class="material-symbols-outlined">mail</span></label><input type="email" name="email" id="email"></p>
-            <p class="respostas"><label for="senha"><span class="material-symbols-outlined">key</span></label><input type="password" name="senha" id="senha"></p>
+            <p class="respostas">
+                <label for="email"><span class="material-symbols-outlined">mail</span></label>
+                <input type="email" name="email" id="email" required placeholder=" Seu E-mail">
+            </p>
 
-            <p><input type="submit" value="Entrar" class="botao"><br><input type="button" value="Esqueci minha senha" class="botao"></p> <br>
+            <p class="respostas">
+                <label for="senha"><span class="material-symbols-outlined">key</span></label>
+                <input type="password" name="senha" id="senha" required minlength="8" placeholder=" Sua senha">
+            </p>
+
+            <p>
+                <input type="submit" value="Entrar" id="botao1"><br>
+                <input type="button" value="Esqueci minha senha" id="botao2">
+            </p>
         </form>
     </main>
 </body>
